@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'register_028.html'));
+  res.sendFile(path.join(__dirname, '201510028', 'frame.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
