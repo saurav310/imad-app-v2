@@ -9,6 +9,26 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '201510028', 'frame.html'));
 });
 
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, '201510028', 'a.html'));
+});
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, '201510028', 'abc.html'));
+});
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, '201510028', 'b.html'));
+});
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, '201510028', 'register_028.html'));
+});
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, '201510028', 'img.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
